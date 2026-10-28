@@ -1,0 +1,7 @@
+kafka-python
+streamlit
+pandas
+plotly
+pyspark
+scikit-learn
+joblib

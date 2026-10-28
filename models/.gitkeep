@@ -1,0 +1,2 @@
+# Preserves models directory in git.
+# Model files (*.joblib) are generated at runtime by spark_pipeline.py.

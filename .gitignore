@@ -1,0 +1,39 @@
+# Python virtual environment
+venv/
+.venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Operating system artifacts
+desktop.ini
+Thumbs.db
+.DS_Store
+
+# Apache Kafka binaries and logs (must not be committed to GitHub)
+kafka/
+kafka.tgz
+*.tgz
+*.tar.gz
+/tmp/
+kraft-combined-logs/
+
+# Apache Spark & Hadoop runtime checkpoints
+data/spark_checkpoint/
+data/raw/
+spark-warehouse/
+.sparkStaging/
+*.spark.tmp
+
+# Trained Machine Learning models (trained dynamically by Spark pipeline)
+models/*.joblib
+!models/.gitkeep
+
+# IDE and editor settings
+.idea/
+.vscode/
+*.swp
+*.swo
+.python-version
